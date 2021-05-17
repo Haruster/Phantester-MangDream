@@ -12,6 +12,7 @@
 		FFE4294226516633004FA744 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE4294126516633004FA744 /* ViewController.swift */; };
 		FFE4294726516635004FA744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE4294626516635004FA744 /* Assets.xcassets */; };
 		FFE4294A26516635004FA744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE4294826516635004FA744 /* LaunchScreen.storyboard */; };
+		FFE429752652119B004FA744 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE429742652119B004FA744 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		FFE4294B26516635004FA744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFE4295026516635004FA744 /* EmperPyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmperPyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE4295B26516635004FA744 /* EmperPyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmperPyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE429742652119B004FA744 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				FFE4294126516633004FA744 /* ViewController.swift */,
+				FFE429742652119B004FA744 /* TabBarViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE429752652119B004FA744 /* TabBarViewController.swift in Sources */,
 				FFE4294226516633004FA744 /* ViewController.swift in Sources */,
 				FFE4293E26516633004FA744 /* AppDelegate.swift in Sources */,
 				FFE4294026516633004FA744 /* SceneDelegate.swift in Sources */,
