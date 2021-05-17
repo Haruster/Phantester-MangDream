@@ -9,10 +9,26 @@
 /* Begin PBXBuildFile section */
 		FFE4293E26516633004FA744 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE4293D26516633004FA744 /* AppDelegate.swift */; };
 		FFE4294026516633004FA744 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE4293F26516633004FA744 /* SceneDelegate.swift */; };
-		FFE4294226516633004FA744 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE4294126516633004FA744 /* ViewController.swift */; };
+		FFE4294226516633004FA744 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE4294126516633004FA744 /* HomeViewController.swift */; };
 		FFE4294726516635004FA744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE4294626516635004FA744 /* Assets.xcassets */; };
 		FFE4294A26516635004FA744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE4294826516635004FA744 /* LaunchScreen.storyboard */; };
 		FFE429752652119B004FA744 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE429742652119B004FA744 /* TabBarViewController.swift */; };
+		FFE4297726521405004FA744 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE4297626521405004FA744 /* SearchViewController.swift */; };
+		FFE429792652143A004FA744 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE429782652143A004FA744 /* LibraryViewController.swift */; };
+		FFE4297D26521516004FA744 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE4297C26521516004FA744 /* AuthViewController.swift */; };
+		FFE4297F2652199D004FA744 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE4297E2652199D004FA744 /* WelcomeViewController.swift */; };
+		FFE42981265219DC004FA744 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE42980265219DC004FA744 /* SettingsViewController.swift */; };
+		FFE4298326522798004FA744 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE4298226522798004FA744 /* ProfileViewController.swift */; };
+		FFE4298526522924004FA744 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE4298426522924004FA744 /* PlayerViewController.swift */; };
+		FFE4298726522A7C004FA744 /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE4298626522A7C004FA744 /* PlaylistViewController.swift */; };
+		FFE4298926522ACB004FA744 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE4298826522ACB004FA744 /* SearchResultViewController.swift */; };
+		FFE4298B26522B47004FA744 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE4298A26522B47004FA744 /* AuthManager.swift */; };
+		FFE4298D26522BA4004FA744 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE4298C26522BA4004FA744 /* APICaller.swift */; };
+		FFE4298F26522C28004FA744 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE4298E26522C28004FA744 /* HapticsManager.swift */; };
+		FFE4299126522C84004FA744 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE4299026522C84004FA744 /* Playlist.swift */; };
+		FFE4299326522CBC004FA744 /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE4299226522CBC004FA744 /* AudioTrack.swift */; };
+		FFE4299526522D11004FA744 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE4299426522D11004FA744 /* Artist.swift */; };
+		FFE4299726522D4F004FA744 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE4299626522D4F004FA744 /* UserProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +52,29 @@
 		FFE4293A26516633004FA744 /* EmperPy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmperPy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE4293D26516633004FA744 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFE4293F26516633004FA744 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FFE4294126516633004FA744 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFE4294126516633004FA744 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FFE4294626516635004FA744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFE4294926516635004FA744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFE4294B26516635004FA744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFE4295026516635004FA744 /* EmperPyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmperPyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE4295B26516635004FA744 /* EmperPyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmperPyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE429742652119B004FA744 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		FFE4297626521405004FA744 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		FFE429782652143A004FA744 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		FFE4297C26521516004FA744 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		FFE4297E2652199D004FA744 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		FFE42980265219DC004FA744 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		FFE4298226522798004FA744 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FFE4298426522924004FA744 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		FFE4298626522A7C004FA744 /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
+		FFE4298826522ACB004FA744 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		FFE4298A26522B47004FA744 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		FFE4298C26522BA4004FA744 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		FFE4298E26522C28004FA744 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		FFE4299026522C84004FA744 /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		FFE4299226522CBC004FA744 /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
+		FFE4299426522D11004FA744 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		FFE4299626522D4F004FA744 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +137,8 @@
 		FFE4296E265168A2004FA744 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				FFE4294126516633004FA744 /* ViewController.swift */,
-				FFE429742652119B004FA744 /* TabBarViewController.swift */,
+				FFE4297B265214E7004FA744 /* Other */,
+				FFE4297A265214BF004FA744 /* Core */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -122,6 +154,10 @@
 		FFE42970265168D1004FA744 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FFE4299026522C84004FA744 /* Playlist.swift */,
+				FFE4299226522CBC004FA744 /* AudioTrack.swift */,
+				FFE4299426522D11004FA744 /* Artist.swift */,
+				FFE4299626522D4F004FA744 /* UserProfile.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -136,6 +172,9 @@
 		FFE42972265169B9004FA744 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				FFE4298A26522B47004FA744 /* AuthManager.swift */,
+				FFE4298C26522BA4004FA744 /* APICaller.swift */,
+				FFE4298E26522C28004FA744 /* HapticsManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -148,6 +187,31 @@
 				FFE4293F26516633004FA744 /* SceneDelegate.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		FFE4297A265214BF004FA744 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FFE429742652119B004FA744 /* TabBarViewController.swift */,
+				FFE4294126516633004FA744 /* HomeViewController.swift */,
+				FFE4297626521405004FA744 /* SearchViewController.swift */,
+				FFE429782652143A004FA744 /* LibraryViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FFE4297B265214E7004FA744 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FFE4297C26521516004FA744 /* AuthViewController.swift */,
+				FFE4297E2652199D004FA744 /* WelcomeViewController.swift */,
+				FFE42980265219DC004FA744 /* SettingsViewController.swift */,
+				FFE4298226522798004FA744 /* ProfileViewController.swift */,
+				FFE4298426522924004FA744 /* PlayerViewController.swift */,
+				FFE4298626522A7C004FA744 /* PlaylistViewController.swift */,
+				FFE4298826522ACB004FA744 /* SearchResultViewController.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,10 +343,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE4297726521405004FA744 /* SearchViewController.swift in Sources */,
+				FFE4299126522C84004FA744 /* Playlist.swift in Sources */,
+				FFE4298B26522B47004FA744 /* AuthManager.swift in Sources */,
+				FFE4297F2652199D004FA744 /* WelcomeViewController.swift in Sources */,
+				FFE4298326522798004FA744 /* ProfileViewController.swift in Sources */,
 				FFE429752652119B004FA744 /* TabBarViewController.swift in Sources */,
-				FFE4294226516633004FA744 /* ViewController.swift in Sources */,
+				FFE4294226516633004FA744 /* HomeViewController.swift in Sources */,
+				FFE4298F26522C28004FA744 /* HapticsManager.swift in Sources */,
+				FFE4299326522CBC004FA744 /* AudioTrack.swift in Sources */,
+				FFE4297D26521516004FA744 /* AuthViewController.swift in Sources */,
 				FFE4293E26516633004FA744 /* AppDelegate.swift in Sources */,
+				FFE429792652143A004FA744 /* LibraryViewController.swift in Sources */,
+				FFE4299726522D4F004FA744 /* UserProfile.swift in Sources */,
+				FFE4298726522A7C004FA744 /* PlaylistViewController.swift in Sources */,
+				FFE4299526522D11004FA744 /* Artist.swift in Sources */,
 				FFE4294026516633004FA744 /* SceneDelegate.swift in Sources */,
+				FFE4298526522924004FA744 /* PlayerViewController.swift in Sources */,
+				FFE4298926522ACB004FA744 /* SearchResultViewController.swift in Sources */,
+				FFE4298D26522BA4004FA744 /* APICaller.swift in Sources */,
+				FFE42981265219DC004FA744 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
