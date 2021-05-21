@@ -1,2 +1,2 @@
-# Phantester-GangPy
+# Phantester-MangDream
 Phantester Messenger App
